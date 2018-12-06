@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        style="@style/banner"/>
+
+    <View style="@style/divider"/>
+
+    <TextView
+        android:drawableLeft="@drawable/gas_station_icon"
+        style="@style/header_title"
+        android:text="Posto de Gasolina"/>
+
+    <View style="@style/divider"/>
+    
+    <LinearLayout
+        style="@style/container_row">
+
+        <TextView
+            style="@style/header_subtitle"
+            android:text="Preço Gasolina"/>
+        <TextView
+            style="@style/header_subtitle"
+            android:text="Preço Etanol"/>
+
+    </LinearLayout>
+    
+    <LinearLayout
+        style="@style/container_row">
+
+        <EditText
+            android:id="@+id/etGasPrice"
+            style="@style/input_number_decimal"
+            android:hint="Ex.: 3,5" />
+
+        <EditText
+            android:id="@+id/etEtanolPrice"
+            style="@style/input_number_decimal"
+            android:hint="Ex.: 2,5" />
+        
+    </LinearLayout>
+
+    <View style="@style/divider"/>
+
+    <TextView
+        android:drawableLeft="@drawable/car_icon"
+        style="@style/header_title"
+        android:text="Posto de Gasolina"/>
+
+    <View style="@style/divider"/>
+
+    <LinearLayout
+        style="@style/container_row">
+
+        <TextView
+            style="@style/header_subtitle"
+            android:text="Km/L Gasolina"/>
+        <TextView
+            style="@style/header_subtitle"
+            android:text="Km/L Etanol"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/container_row">
+
+        <EditText
+            android:id="@+id/etGasAvarage"
+            style="@style/input_number_decimal"
+            android:hint="Ex.: 9" />
+
+        <EditText
+            android:id="@+id/etEtanolAvarage"
+            style="@style/input_number_decimal"
+            android:hint="Ex.: 5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/container_row">
+
+        <Button
+            android:id="@+id/btCalcular"
+            style="@style/button_calcular"
+            android:text="Calcular" />
+
+    </LinearLayout>
+
+</LinearLayout>

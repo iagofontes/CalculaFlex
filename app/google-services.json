@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1010733308339",
+    "firebase_url": "https://calculaflex-8d0f5.firebaseio.com",
+    "project_id": "calculaflex-8d0f5",
+    "storage_bucket": "calculaflex-8d0f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010733308339:android:5eef7dc2f9cd4829",
+        "android_client_info": {
+          "package_name": "br.com.iagofontes.calculaflex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010733308339-509hum3obhulk1kirghta1lne76gmfs6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.iagofontes.calculaflex",
+            "certificate_hash": "beb224284730e1ec2ea6857c4e52af0c0438cd6c"
+          }
+        },
+        {
+          "client_id": "1010733308339-ks4tmskfs0732gvakt4glnbg0ldrb9o2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKDxKQkuu_dNLXQRSotXDhku93ETXhmbs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010733308339-ks4tmskfs0732gvakt4glnbg0ldrb9o2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
